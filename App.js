@@ -1,8 +1,7 @@
 import React from 'react';
-import {Text} from 'react-native';
-
+import Navegacion from './src/navegacion';
 const App = () => {
-  return <Text>hola</Text>;
+  return <Navegacion />;
 };
 
 export default App;
