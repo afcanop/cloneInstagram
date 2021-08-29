@@ -21,10 +21,6 @@ const home = () => {
 
   return (
     <Container>
-      <Image
-        source={{uri: 'http://www.clicktorelease.com/code/gif/1.gif'}}
-        style={{width: 100, height: 100}}
-      />
       <ScrollView showsVerticalScrollIndicator={false}>
         {React.Children.toArray(
           data.map(item => {
