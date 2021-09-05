@@ -5,7 +5,7 @@ import {Image, ScrollView, Text} from 'react-native';
 import styled from 'styled-components';
 import useSWR from 'swr';
 import {fetcher} from '../commons/utils';
-import {Post} from '../components';
+import {Post, Header} from '../components';
 
 const Container = styled.View`
   flex: 1;
@@ -21,6 +21,7 @@ const home = () => {
 
   return (
     <Container>
+      <Header />
       <ScrollView showsVerticalScrollIndicator={false}>
         {React.Children.toArray(
           data.map(item => {

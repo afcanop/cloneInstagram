@@ -2,13 +2,11 @@ import React from 'react';
 import {Dimensions, TouchableOpacity} from 'react-native';
 import styled from 'styled-components/native';
 import Ionicons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {AuxRow} from '../commons/componentes/auxStyles';
 
 const sizes = Dimensions.get('screen');
 
 const Container = styled.View``;
-const AuxRow = styled.View`
-  flex-direction: row;
-`;
 const Header = styled.View`
   flex-direction: row;
   justify-content: space-between;
